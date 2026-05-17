@@ -1,0 +1,19 @@
+[
+    {
+        "testName": "inventory displays 6 products",
+        "expectedCount": 6,
+        "run": true
+    },
+    {
+        "testName": "sort products Z to A",
+        "sortOrder": "za",
+        "expectedFirstProduct": "Test.allTheThings() T-Shirt (Red)",
+        "run": true
+    },
+       {
+        "testName": "sort products low to high",
+        "sortOrder": "lohi",
+        "expectedFirstProduct": "Sauce Labs Backpack  ",
+        "run": false
+    }
+]

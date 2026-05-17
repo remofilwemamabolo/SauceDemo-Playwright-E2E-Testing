@@ -1,0 +1,12 @@
+[
+    {
+        "testName": "cart contains correct product name",
+        "expectedProduct": "Test.allTheThings() T-Shirt (Red)",
+        "run": true
+    },
+    {
+        "testName": "cart contains correct product price",
+        "expectedPrice": "$15.99",
+        "run": true
+    }
+]

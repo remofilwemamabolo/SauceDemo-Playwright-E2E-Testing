@@ -1,0 +1,10 @@
+[
+    {
+        "testName": "complete checkout successfully",
+        "firstName": "John",
+        "lastName": "Doe",
+        "zip": "12345",
+        "expectedSuccessMessage": "Thank you for your order!",
+        "run": true
+    }
+]

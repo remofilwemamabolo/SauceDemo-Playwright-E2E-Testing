@@ -1,0 +1,21 @@
+[
+    {
+        "testName": "product name is correct",
+        "expectedProduct": "Test.allTheThings() T-Shirt (Red)",
+        "run": true
+    },
+    {
+        "testName": "product price is correct",
+        "expectedPrice": "$15.99",
+        "run": true
+    },
+    {
+        "testName": "product description is correct",
+        "expectedDescription": "This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.",
+        "run": true
+    },
+    {
+        "testName": "product image is visible",
+        "run": true
+    }
+]
