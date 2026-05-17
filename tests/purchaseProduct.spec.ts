@@ -1,9 +1,9 @@
 import { expect, test } from '@playwright/test';
 import { LoginPage } from '../pages/LoginPage';
-import { ProductListingPage } from '../pages/productListingPage';
-import { ProductDetailsPage } from '../pages/productDetailsPage';
-import { CartPage } from '../pages/cartPage';
-import { CheckoutPage } from '../pages/checkoutPage';
+import { ProductListingPage } from '../pages/ProductListingPage';
+import { ProductDetailsPage } from '../pages/ProductDetailsPage';
+import { CartPage } from '../pages/CartPage';
+import { CheckoutPage } from '../pages/CheckoutPage';
 import loginData from '../fixtures/loginData.json';
 import productData from '../fixtures/productData.json';
 import productDetailsData from '../fixtures/productDetailsData.json';
