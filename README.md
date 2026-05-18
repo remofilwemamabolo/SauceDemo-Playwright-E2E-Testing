@@ -6,13 +6,13 @@ This project is a data-driven end-to-end test automation framework built with Pl
 ---
 ## Framework Explanation 
 
--Page Object Model
+### Page Object Model
 Each page has its own class in pages/ containing only locators and actions — no assertions. If the UI changes, only the page class needs updating.
 
--Data-Driven Testing
+### Data-Driven Testing
 All test data lives in JSON fixtures in fixtures/. Tests loop over the data using forEach with a run flag to skip scenarios without deleting them. Expected values like prices and success messages come from the fixture, never hardcoded.
 
--Utils
+### Utils
 Shared logic that doesn't belong in a page class or test:
 loginHelper.ts — reusable login function pulling credentials from the fixture
 sortHelper.ts — type guard validating sort values before passing to Playwright
