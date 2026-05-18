@@ -16,6 +16,7 @@ All test data lives in JSON fixtures in fixtures/. Tests loop over the data usin
 Shared logic that doesn't belong in a page class or test:
 
 loginHelper.ts — reusable login function pulling credentials from the fixture
+
 sortHelper.ts — type guard validating sort values before passing to Playwright
 
 
